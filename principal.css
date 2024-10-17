@@ -1,5 +1,5 @@
 body {
-    background-color: black; /* Fundo preto */
+    background-color: rgba(24, 23, 23, 0.829); /* Fundo preto */
 }
 
 header {
@@ -8,12 +8,14 @@ header {
 
 
 .custom-navbar {
-    background-color: #131111; /* Fundo escuro e opaco */
+    background-color: #0000005e; /* Fundo escuro e opaco */
 }
 
 .custom-navbar .navbar-brand,  
 .custom-navbar .nav-link {
-    color: white; /* Cor do texto para links e marca */
+    color: rgb(255, 251, 251); /* Cor do texto para links e marca */
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif    ;
 }
 
 .custom-navbar .nav-link.active {
@@ -23,15 +25,28 @@ header {
 .custom-navbar .nav-link:hover {
     color: #f8f9fa; /* Cor ao passar o mouse */
 }
+
+.logo_navbar{
+    padding-right: 5%;
+}
 }
 
 
 main {
     background-color: black;
+    
 }
 
+
+
 .carousel-item img {
-    max-height: 960px; /* Altura máxima da imagem */
+    max-height:885px; /* Altura máxima da imagem */
     object-fit: cover; /* Manter a proporção da imagem */
-    width: 100%; /* Ocupa a largura total */
+    width: 80%; /* Ocupa a largura total */
+}
+footer{
+    color: white;
+   text-align:center ;
+   font-size: x-large;
+ position:fixed;
 }
