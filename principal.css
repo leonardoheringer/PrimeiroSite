@@ -1,0 +1,37 @@
+body {
+    background-color: black; /* Fundo preto */
+}
+
+header {
+    position: relative;
+    z-index: 10; /* Garante que a navbar fique acima da imagem */
+
+
+.custom-navbar {
+    background-color: #131111; /* Fundo escuro e opaco */
+}
+
+.custom-navbar .navbar-brand,  
+.custom-navbar .nav-link {
+    color: white; /* Cor do texto para links e marca */
+}
+
+.custom-navbar .nav-link.active {
+    font-weight: bold; /* Destacar texto ativo */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #f8f9fa; /* Cor ao passar o mouse */
+}
+}
+
+
+main {
+    background-color: black;
+}
+
+.carousel-item img {
+    max-height: 960px; /* Altura máxima da imagem */
+    object-fit: cover; /* Manter a proporção da imagem */
+    width: 100%; /* Ocupa a largura total */
+}
